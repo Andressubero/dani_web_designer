@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import Layout from '../components/shared/layout/Layout';
+import Layout from '../src/components/shared/layout/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (

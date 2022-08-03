@@ -3,7 +3,7 @@ import Footer from '../footer/Footer';
 import styles from './sidebar.module.css';
 import { useRouter } from 'next/router';
 
-const pages = [ 'About', 'Contact', 'Portfolio', 'Resume'];
+const pages = [ 'About', 'Contact', 'Portfolio'];
 
 const Sidebar = () => {
   const router = useRouter();

@@ -1,7 +1,9 @@
-const About = () => {
+import ResumeContainer from "../src/components/resume/ResumeContainer";
+
+const Resume = () => {
   return (
-    <div>About</div>
+    <ResumeContainer />
   )
 }
 
-export default About;
+export default Resume;
