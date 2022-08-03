@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    background: #222;
+
+}
+
+.titleContainer {
+    width: 100%;
+    height: 94px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.menuContainer {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(255,255,255,.4);
+    width: 70%;
+    margin: 0 auto 20px auto;
+}
+
+.menuItem:hover {
+    border-bottom: solid rgba(255,255,255,.4) 1px;
+    padding-bottom: 5px;
+}
+.menuItem {
+    padding-bottom: 5px;
+    border-bottom: solid #222 1px;
+}
+
+.projectsContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardContainer {
+    max-width: 400px;
+    min-width: 350px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Montserrat",Arial,sans-serif;
+}
+
+.title {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .menuContainer {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: rgba(255,255,255,.4);
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+ }
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    .menuContainer {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: rgba(255,255,255,.4);
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+}

@@ -1,6 +1,8 @@
+import PortfolioContainer from "../src/components/portfolio/PortfolioContainer";
+
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <PortfolioContainer />
   )
 }
 

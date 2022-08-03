@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .section {
@@ -39,9 +40,10 @@
     line-height: 1.7;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.4);
 }
-
+.companyContainer  {
+    color: #fff;
+}
 .descriptionContainer {
     margin-bottom: 16px;
 }
@@ -51,3 +53,54 @@
     font-weight: 300;
     line-height: 1.5;
 }
+
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
+
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    .section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+ }
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    .section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+/*fin movil*/

@@ -12,7 +12,7 @@ const ResumeContainer = () => {
                 {education.map((e, i) => {
                     const {company, description, title, date} = e;
                     return (
-                    <Card title={title} description={description} date={date} compan={company} key={i} />
+                    <Card title={title} description={description} date={date} company={company} key={i} />
                 );})}
             </div>
         </div>
@@ -22,7 +22,7 @@ const ResumeContainer = () => {
             {experiences.map((e, i) => {
                     const {company, description, title, date} = e;
                     return (
-                    <Card title={title} description={description} date={date} compan={company} key={i} />
+                    <Card title={title} description={description} date={date} company={company} key={i} />
                 );})}
             </div>
        </div>

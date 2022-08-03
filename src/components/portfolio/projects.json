@@ -1,0 +1,44 @@
+[
+    {
+        "name": "El juego de la vida 2.0",
+        "description": "Photoshop, Diseño gráfico",
+        "category": "others",
+        "imgUrl": "/el_juego_de_la_vida.jpg",
+        "url": "https://www.behance.net/gallery/144484937/El-juego-de-la-vida-20"
+    },
+    {
+        "name": "Inventario Tipográfico",
+        "description": "Diseño gráfico",
+        "category": "others",
+        "imgUrl": "/iventario_tipografico.jpg",
+        "url": "https://www.behance.net/gallery/144484645/Inventario-Tipografico-Tipografia-2"
+    },
+    {
+        "name": "Si Dios quiere",
+        "description": "Ilustrator, Photoshop, Diseño Gráfico",
+        "category": "photography",
+        "imgUrl": "si_dios_quiere.jpg",
+        "url": "https://www.behance.net/gallery/143284875/Si-Dios-quiere"
+    },
+    {
+        "name": "Fotografía",
+        "description": "",
+        "category": "photography",
+        "imgUrl": "/cloe.jpg",
+        "url": "/cloe.jpg"
+    },
+    {
+        "name": "Video de Todos o ninguno",
+        "description": "video",
+        "category": "video",
+        "imgUrl": "/todos_o_ninguno.jpg",
+        "url": "https://www.youtube.com/watch?v=V-xSBz2vyvk"
+    },
+    {
+        "name": "Todos o ninguno",
+        "description": "juego",
+        "category": "others",
+        "imgUrl": "/todos_o_ninguno.jpg",
+        "url": "https://docs.google.com/presentation/d/1HjIu2j41auSsBTOZUWEnVEN5fEECF4H2XtOAuwkFy5Y/edit#slide=id.p"
+    }
+]

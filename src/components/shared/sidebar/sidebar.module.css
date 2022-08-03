@@ -45,6 +45,7 @@
     color: black;
     border-bottom: solid black 1px;
     padding-bottom: 5px;
+    font-size: 18px;
 }
 
 .footerContainer {
@@ -66,3 +67,41 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+
+/*Escritorio
+@media (min-width: 1199.98px)  {
+   // nada por ahora
+}
+*/
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+
+}
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .sidebarContainer {
+        display: none
+    }
+ }
+ @media (max-width: 575.98px)and (orientation:landscape) {
+    .sidebarContainer {
+        display: none
+    }
+ }
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+
+}
+/*fin movil*/
