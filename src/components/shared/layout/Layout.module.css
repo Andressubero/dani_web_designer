@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    background-color: white;
 }
 .buttonContainer {
     display:none
@@ -14,6 +15,7 @@
     object-fit: contain; 
     position: absolute;
     right: 0;
+    background-color: #ffff;
 }
 /*Escritorio*/
 @media (min-width: 1199.98px)  {
