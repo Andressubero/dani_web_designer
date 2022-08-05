@@ -26,7 +26,7 @@ export default function PositionedMenu() {
         onClick={handleClick}
         sx={{ zIndex: 1}}
       >
-        <AddCircleOutlineRoundedIcon sx={{ color: 'black', fontSize: '30px'}} />
+        <AddCircleOutlineRoundedIcon sx={{ color: 'gray', fontSize: '30px'}} />
       </Button>
       <Menu
         id="demo-positioned-menu"
