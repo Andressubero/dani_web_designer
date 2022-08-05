@@ -7,17 +7,16 @@ const Card = (props) => {
 
     const { img, category, title, description, url } = props;
   return (
-    <Link href={url}> 
         <div className={styles.cardContainer}>
             <div>
                 <div className={styles.img}> <img src={img} alt={title} style={{width: '100%', height: '100%'}}></img></div>
                 <div className={styles.category}>{category}</div>
-                <div className={styles.title}>{title}</div>
+                <a style={{ padding: 0}}href={url} target="_blank" rel="noopener noreferrer">
+                  <div className={styles.title}>{title}</div>
+                </a>
                 <div className={styles.description}>{description}</div>
             </div>
-        </div>
-    </Link>
-    
+        </div>    
   )
 }
 

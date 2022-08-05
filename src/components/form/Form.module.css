@@ -1,0 +1,76 @@
+
+.formulario {
+	width: 100%;
+	max-width: 600px;
+	min-width: 300px;
+	border-radius: 5px;
+	padding: 16px 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	background-color:rgba(0, 0, 0, 0.04);
+}
+
+.formulario > div {
+	margin-bottom: 20px;
+}
+
+.formulario label {
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input,
+.formulario textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #e2e2e2;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+.formulario input:focus {
+	outline: none;
+	border: 2px solid #0085FF;
+}
+
+.formulario .error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.formulario button[type="submit"] {
+	display: block;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: 50%;
+	padding: 10px;
+	color: black;
+	font-size: 16px;
+	transition: .3s ease all;
+	background:  white;
+    border: 1px solid white;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.formulario button[type="submit"]:hover {
+	background: #abaeb5;
+}
+
+.formulario .exito {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+	color: #02a802;
+}
+
+.formulario input[type="radio"] {
+	width: auto;
+}
