@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import Link from 'next/link';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
 const pages = [ 'About', 'Contact', 'Portfolio'];
 
 export default function PositionedMenu() {
@@ -25,7 +26,7 @@ export default function PositionedMenu() {
         onClick={handleClick}
         sx={{ zIndex: 1}}
       >
-        Menu
+        <AddCircleOutlineRoundedIcon sx={{ color: 'black', fontSize: '30px'}} />
       </Button>
       <Menu
         id="demo-positioned-menu"
